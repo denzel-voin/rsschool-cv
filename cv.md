@@ -18,3 +18,31 @@ I used to work at the state services center. I am a lawyer by education.
 I took a great interest in programming, and I want to learn a skill that will be relevant everywhere.
 
 ---
+
+### Skills:
+
+- HTML, CSS
+- JavaScript
+- Git, GitHub
+- VS Code
+- Adobe Photoshop, Illustrator, Figma
+
+---
+
+### Code example:
+
+This function iteratively finds the smallest divisor of a given number:
+
+```javascript
+const smallestDivisor = num => {
+  if (num === 1) {
+    return 1;
+  }
+  let divisor = 2;
+  while (num % divisor !== 0) {
+    divisor++;
+  }
+  return divisor;
+}
+```
+---
