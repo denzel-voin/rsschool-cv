@@ -46,3 +46,21 @@ const smallestDivisor = num => {
 }
 ```
 ---
+
+### My project:
+
+https://baloons-denzel-voin.netlify.app/
+
+---
+
+### Courses:
+
+- Hexlet frontent-developer (in progress)
+- RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+
+---
+
+### Languages:
+
+- English \- Intermediate
+- Russian \- Native
