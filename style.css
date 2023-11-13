@@ -1,0 +1,307 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cabin;
+  text-decoration: none
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%
+}
+
+@media only screen and (min-width: 1500px) {
+  html {
+    font-size: 120%
+  }
+}
+
+@media only screen and (max-width: 1499px) {
+  html {
+    font-size: 90%
+  }
+}
+
+@media only screen and (max-width: 1499px) {
+  html {
+    font-size: 60%
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  html {
+    font-size: 40%
+  }
+}
+
+@media only screen and (min-width: 2500px) {
+  html {
+    font-size: 200%
+  }
+}
+
+body {
+  padding: 2.5rem;
+  background: #292935
+}
+
+.header {
+  position: relative;
+  background: #f8f5e8;
+  display: flex;
+  height: 40rem;
+  justify-content: center;
+  overflow: hidden
+}
+
+.header__img {
+  position: absolute;
+  z-index: 1
+}
+
+.header__left-side {
+  position: relative
+}
+
+.header__right-side {
+  z-index: 1;
+  padding-left: 25rem;
+  padding-top: 5.6rem
+}
+
+.header__prof-name {
+  background: rgba(255, 205, 4, .7);
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 1.8rem;
+  margin-bottom: 3rem;
+  color: #292935
+}
+
+@media only screen and (max-width: 600px) {
+  .header__prof-name {
+    line-height: 3.8rem
+  }
+}
+
+.header__my-name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 6rem;
+  line-height: 3.6rem;
+  margin-bottom: .6rem;
+  margin-right: 4.6rem;
+  margin-bottom: 2rem;
+  color: #292935
+}
+
+@media only screen and (max-width: 600px) {
+  .header__my-name {
+    line-height: 5.6rem
+  }
+}
+
+.header__profile {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 2.1rem;
+  padding-bottom: 1.1rem;
+  color: #292935;
+  margin-left: 5rem
+}
+
+@media only screen and (max-width: 600px) {
+  .header__profile {
+    display: none
+  }
+}
+
+.header__decor {
+  width: 3rem;
+  height: .4rem;
+  background: #ffc905;
+  margin-bottom: 11px;
+  margin-left: 5rem
+}
+
+.header__description {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.1rem;
+  color: #292935;
+  margin-left: 5rem
+}
+
+@media only screen and (max-width: 600px) {
+  .header__description {
+    display: none
+  }
+}
+
+.header__nav-lists {
+  display: flex;
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  list-style-type: none;
+  z-index: 3;
+  align-items: center
+}
+
+@media only screen and (max-width: 600px) {
+  .header__nav-lists {
+    display: none
+  }
+}
+
+.header__nav-list:not(:last-child) {
+  margin-right: 3rem
+}
+
+.header__nav-links {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.1rem;
+  color: #292935;
+  transition: all .2s ease-in-out
+}
+
+.header__nav-links:hover {
+  border-bottom: .3rem solid #ffc905
+}
+
+.list-style-type-none {
+  list-style-type: none
+}
+
+.color-line {
+  position: absolute;
+  width: 4.8rem;
+  height: 100%;
+  background: rgba(255, 205, 4, .7);
+  z-index: 2
+}
+
+.main {
+  background: #22222e;
+  padding: 5rem
+}
+
+.padding-riht-10px {
+  padding-right: 1rem
+}
+
+.margin-bottom-10px {
+  margin-bottom: 1rem
+}
+
+.section {
+  padding: 2rem
+}
+
+.section__head {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 2.1rem;
+  padding-bottom: 1.1rem;
+  color: #f8f5e8;
+  margin-left: 5rem
+}
+
+.section__list {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.1rem;
+  color: #f8f5e8;
+  margin-left: 5rem
+}
+
+.section__code {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.1rem;
+  color: #f8f5e8
+}
+
+.section__code_blue {
+  color: #0096d1
+}
+
+.section__code_yellow {
+  color: #fdf4a3
+}
+
+.section__code_high-blue {
+  color: #43c5dd
+}
+
+.section__code_high-yellow {
+  color: #effe5b
+}
+
+.section__code_purple {
+  color: #981198
+}
+
+.section__code_green {
+  color: #00f897
+}
+
+.section__code-form {
+  width: 70%;
+  background: #000;
+  padding: 1rem
+}
+
+.shadow {
+  box-shadow: 12px 12px 2px 1px rgba(255, 205, 4, .7)
+}
+
+.contact-link {
+  color: #f8f5e8
+}
+
+.img-width {
+  width: 2rem
+}
+
+.footer {
+  padding-top: 2rem
+}
+
+.footer__lists {
+  list-style-type: none;
+  display: flex;
+  justify-content: center
+}
+
+.footer__list:not(:last-child) {
+  margin-right: 5rem
+}
+
+.footer__img {
+  height: 4rem
+}
+
+.footer__img_back {
+  background: #ffc905;
+  transition: .2s all ease-in-out
+}
+
+.footer__img_back:hover {
+  background: rgba(255, 205, 4, .7)
+}
+
+.project-img {
+  width: 70%
+}
+
+@media only screen and (max-width: 600px) {
+  .project-img {
+    width: 100%
+  }
+}
