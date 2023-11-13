@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Cabin:regular,500,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./favicon/cv-icon.png">
+  <title>CV</title>
+</head>
+<body>
+<header class="header">
+  <div class="header__left-side">
+    <div class="color-line"></div>
+    <img src="./img/Im.png" alt="my-photo" height="100%" class="header__img">
+  </div>
+  <nav class="header__nav">
+    <ul class="header__nav-lists">
+      <li class="header__nav-list"><a href="#skill" class="header__nav-links">Skills</a></li>
+      <li class="header__nav-list"><a href="#code" class="header__nav-links">Code example</a></li>
+      <li class="header__nav-list"><a href="#project" class="header__nav-links">My project</a></li>
+      <li class="header__nav-list"><a href="#courses" class="header__nav-links">Courses</a></li>
+      <li class="header__nav-list"><a href="#languages" class="header__nav-links">Languages</a></li>
+      <li class="header__nav-list"><a href="#contacts" class="header__nav-links">Contacts</a></li>
+    </ul>
+  </nav>
+  <div class="header__right-side padding-riht-10px">
+    <h1 class="header__my-name">Denis Voinovich</h1>
+    <p class="header__prof-name">Junior Frontent-developer</p>
+    <h2 class="header__profile">About me</h2>
+    <div class="header__decor"></div>
+    <p class="header__description">
+      Hello, my name is Denis, I am 28 years old. <br>
+      I used to work at the state services center. I am a lawyer by education.<br>
+      I took a great interest in programming, and I want to learn a skill that will be relevant everywhere.<br>
+    </p>
+  </div>
+</header>
+<main class="main">
+  <div class="section">
+    <h2 class="section__head margin-bottom-10px" id="skill">Skills:</h2>
+    <div class="header__decor margin-bottom-10px"></div>
+    <ul class="section__lists">
+      <li class="section__list">HTML, CSS</li>
+      <li class="section__list">JavaScript</li>
+      <li class="section__list">Git, GitHub</li>
+      <li class="section__list">VS Code</li>
+      <li class="section__list">Adobe Photoshop, Illustrator, Figma</li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2 class="section__head margin-bottom-10px" id="code">Code example:</h2>
+    <div class="header__decor margin-bottom-10px"></div>
+    <p class="section__code margin-bottom-10px">This function iteratively finds the smallest divisor of a given
+      number:</p>
+    <div class="section__code-form">
+      <code class="section__code">
+        <span class="section__code_blue">const</span><span class="section__code_yellow"> smallestDivisor</span> = <span
+        class="section__code_high-blue"> num</span> <span class="section__code_blue">=&gt;</span><span
+        class="section__code_high-yellow"> {</span> <br>
+        <span class="section__code_purple"> if (</span><span class="section__code_high-blue">num</span> === <span
+        class="section__code_green"> 1</span><span class="section__code_purple">) { <br>
+              return</span> <span class="section__code_green">1</span>; <br>
+        <span class="section__code_purple">}</span>; <br>
+        <span class="section__code_blue">let</span> <span class="section__code_high-blue">divisor</span> = <span
+        class="section__code_green">2</span>; <br>
+        <span class="section__code_purple">while (</span><span class="section__code_high-blue">num</span> % <span
+        class="section__code_high-blue">divisor</span> !== <span class="section__code_green">0</span><span
+        class="section__code_purple">) {</span> <br>
+        <span class="section__code_high-blue">divisor++</span>; <br>
+        <span class="section__code_purple">}</span>; <br>
+        <span class="section__code_purple">return</span> <span class="section__code_high-blue">divisor</span>; <br>
+        <span class="section__code_high-yellow">}</span>; <br>
+      </code>
+    </div>
+  </div>
+  <div class="section">
+    <h2 class="section__head margin-bottom-10px" id="project">My projects:</h2>
+    <div class="header__decor margin-bottom-10px"></div>
+    <a href="//baloons-denzel-voin.netlify.app/" target="_blank"><img src="./img/project.png" alt="my site"
+                                                                      class="shadow project-img"></a>
+    <div class="margin-bottom-10px"></div>
+    <a href="//rolling-scopes-school.github.io/denzel-voin-JSFE2023Q1/shelter/main.html" target="_blank"><img
+      src="./img/shelter.png" alt="my site" class="shadow project-img"></a>
+    <div class="margin-bottom-10px"></div>
+    <a href="//evklid2023.netlify.app" target="_blank"><img src="./img/evklid.png" alt="my site"
+                                                            class="shadow project-img"></a>
+  </div>
+  <div class="section">
+    <h2 class="section__head margin-bottom-10px" id="courses">Courses:</h2>
+    <div class="header__decor margin-bottom-10px"></div>
+    <ul class="section__lists">
+      <li class="section__list">Hexlet frontent-developer (in progress)</li>
+      <li class="section__list">RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)</li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2 class="section__head margin-bottom-10px" id="languages">Languages:</h2>
+    <div class="header__decor margin-bottom-10px"></div>
+    <ul class="section__lists list-style-type-none">
+      <li class="section__list"><img src="./img/uk.png" alt="uk-flag" class="img-width"> English -
+        Intermediate
+      </li>
+      <li class="section__list"><img src="./img/rus.png" alt="rus-flag" class="img-width"> Russian - Native
+      </li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2 class="section__head margin-bottom-10px" id="contacts">Contacts:</h2>
+    <div class="header__decor margin-bottom-10px"></div>
+    <ul class="section__lists list-style-type-none">
+      <li class="section__list"><a href="tel:+79651678389" class="contact-link"><img src="./img/phone.svg"
+                                                                                     alt="phone-icon" class="img-width">
+        +7&nbsp;965&nbsp;167&nbsp;83&nbsp;89</a></li>
+      <li class="section__list"><a href="mailto:denzelvojn@gmail.com" class="contact-link"><img
+        src="./img/email.svg" alt="mail-icon" class="img-width"> denzelvojn@gmail.com</a></li>
+      <li class="section__list"><a href="//tlgg.ru/@Denzel_vojn" target="_blank" class="contact-link"><img
+        src="./img/telegram.svg" alt="telegram-icon" class="img-width"> @Denzel_vojn</a></li>
+    </ul>
+  </div>
+</main>
+<footer class="footer">
+  <ul class="footer__lists">
+    <li class="footer__list"><a href="//app.rs.school/" target="_blank"><img src="./img/logo-rsschool3.png"
+                                                                             alt="logo-rsschool"
+                                                                             class="footer__img footer__img_back"></a>
+    </li>
+    <li class="footer__list"><a href="//github.com/denzel-voin" target="_blank"><img
+      src="./img/github-mark-white.png" alt="logo-github" class="footer__img"></a></li>
+  </ul>
+</footer>
+</body>
+</html>
